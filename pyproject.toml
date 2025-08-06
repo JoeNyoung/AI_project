@@ -1,0 +1,17 @@
+[project]
+name = "0804-domain-web-rag-gpt-ver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "faiss-cpu>=1.11.0.post1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "newspaper3k>=0.2.8",
+    "pandas>=2.3.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+]
